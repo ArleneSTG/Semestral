@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de reportes - Weird Food</title>
+    <link rel="icon" href="img/loguito.png">
+    <link rel="stylesheet" href="inventario.css">
+    <link rel="stylesheet" href="../Pagina Principal-sesión iniciada/HomeD2.css">
+</head>
+
+<body onload="ValidarLogin()">
+    <header>
+        <!--Una barra con un menu y su logo-->
+        <nav class="barra-nav" id="navbar">
+            
+        </nav>
+    </header>
+
+    <div class="menu">
+        <div class="op">
+            <tr class="tr">
+                <th class="t2"><a class="opciones" href="Platillos.html">PLATILLOS</a></th>
+            </tr>
+        </div>
+        
+        <tr class="tr">
+            <th class="t2"><a class="opciones1" href="Inventario.html">INVENTARIOS</a></th>
+        </tr>
+        <tr class="tr">
+            <th class="t2"><a class="opciones" href="Ventas.html">VENTAS</a></th>
+        </tr>
+        <tr class="tr">
+            <th class="t2"><a class="opciones" href="Consultas.html">CONSULTAS</a></th>
+        </tr>
+
+    </div>
+
+    <!-- <section>
+        <div class="container">
+            Este div es para la sección de las opciones de los diferentes reportes
+            <table class="table1">
+                <tr>
+                    <th class="t1"><a href="">PRODUCTOS</a></th>
+                </tr>
+                <tr>
+                    <th class="t1"><a href="">INEVNTARIOS</a></th>
+                </tr>
+                <tr>
+                    <th class="t1"><a href="">VENTAS</a></th>
+                </tr>
+                <tr>
+                    <th class="t1"><a href="">PEDIDOS</a></th>
+                </tr>
+            </table>
+
+        </div>
+    </section> -->
+
+    <section>
+        <div class="container">
+            <!--Encabezado de la tabla-->
+            <table class="table2">
+                <thead class="encabezado">
+                    <tr>
+                        <th>Nombre del ingrediente</th>
+                        <th>Cantidad comprada</th>
+                        <th>Proveedores</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+
+                <!--A partir de este tr en eadelante, es el contenido dentro de la tabla-->
+                <tbody class="cuerpo">
+                    <tr>
+                        <td class="nombre">Huevos</td>
+                        <td class="cantidad">100</td>
+                        <td class="proveedores">El súper 99, toledano, pricemart, machetazo</td>
+                        <td class="precio">2.50 x D/C</td>
+                    </tr>
+                    <tr>
+                        <td class="nombre">Pulpo</td>
+                        <td class="cantidad">50</td>
+                        <td class="proveedores">Mercado de marisco</td>
+                        <td class="precio">10.50 x lb</td>
+                    </tr>
+                    <tr>
+                        <td class="nombre">Café</td>
+                        <td class="cantidad">30</td>
+                        <td class="proveedores">Distribuidora Café Duran</td>
+                        <td class="precio">5.60 x lb</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+        <script src="../../Controller/PantallaRevision.js"></script>
+    </section>
+
+</body>
+
+</html>

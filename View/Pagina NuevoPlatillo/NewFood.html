@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Platillo - Weird Food</title>
+    <link rel="icon" href="img/loguito.png">
+    <link rel="stylesheet" href="NewFoodD.css">
+    <link rel="stylesheet" href="../Pagina Principal-sesión iniciada/HomeD2.css">
+    <link rel="stylesheet" href="../Pagina EditarPerfil/ProfileSettingsD.css">
+</head>
+
+<body onload="ValidarLogin()">
+    <header>
+        <!--Una barra con un menu y su logo-->
+        <nav class="barra-nav" id="navbar">
+
+        </nav>
+    </header>
+
+    <div class="contenedor_comidas">
+        <!--aqui empieza el menú o reseña de la primera comida-->
+        <h2>Ingrese el Nuevo Platillo!!</h2>
+        <div class="cuadrado"><img src="img/logo.png" alt=""></div>
+        <form action="">
+            <p id="mensaje"></p>
+            <div class="texto">
+                <br>
+                <!--en este div se editan todos los textos-->
+                <input type="text" class="nombre" id="fotoUrl" placeholder="foto URL"><br>
+                <input type="text" class="nombre" id="nombre" placeholder="Nombre del producto"><br>
+                <input type="text" class="precio" id="precio" placeholder="Precio"><br>
+                <input type="text" name="descripcionI" id="descripcionI" placeholder="Decripcion de ingredientes">
+                <input type="text" name="descripcionI" id="descripcionC" placeholder="Decripcion de la comida">
+                <div class="gender-details">
+                    <input type="radio" value="1" name="categoria" id="dot-1">
+                    <input type="radio" value="2" name="categoria" id="dot-2">
+                    <input type="radio" value="3" name="categoria" id="dot-3">
+                    <input type="radio" value="4" name="categoria" id="dot-4">
+                    <span class="gender-title">Categoria del platillo</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Bebidas</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Entradas</span>
+                        </label>
+                        <label for="dot-3">
+                            <span class="dot thre"></span>
+                            <span class="gender">Plato Fuerte</span>
+                        </label>
+                        <label for="dot-4">
+                            <span class="dot four"></span>
+                            <span class="gender">Postres</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="div_botones">
+                    <!--en este div se editan todos los botones-->
+                    <a class="botones" href="#" onclick="GuardarComida()" type="submit">Enviar Nuevo Platillo</a>
+                </div>
+            </div>
+        </form>
+        <script src="../../Controller/Pantallanewfood.js"></script>
+    </div>
+    <!--aqui finaliza la primera comida-->
+
+</body>
+
+</html>

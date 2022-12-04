@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Platillo - Weird Food</title>
+    <link rel="icon" href="img/loguito.png">
+    <link rel="stylesheet" href="EditFoodD.css">
+    <link rel="stylesheet" href="../Pagina Principal-sesión iniciada/HomeD2.css">
+    <link rel="stylesheet" href="../Pagina EditarPerfil/ProfileSettingsD.css">
+</head>
+
+<body onload="ObtenerComidas()">
+    <header>
+        <!--Una barra con un menu y su logo-->
+        <nav class="barra-nav" id="navbar">
+
+        </nav>
+    </header>
+
+    <div class="contenedor_comidas">
+        <h2>Editar Platillos!?</h2>
+        <div class="cuadrado"><img src="" alt=""></div>
+        <form action="" >
+            <p id="mensaje"></p>
+            <div id="Platillo">
+                
+            </div>
+            <div>
+                <div class="div_botones">
+                    <!--en este div se editan todos los botones-->
+                    <a class="botones" href="#" onclick="ActualizarComida()" type="submit">Guardar Cambios</a>
+                    <a class="botones" href="#" onclick="EliminarPlatillo()" type="submit">Eliminar platillo</a>
+                    <a class="botones" href="#" onclick="PublicarComida()" type="submit">Publicar Platillo</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!--aqui finaliza la primera comida-->
+    <script src="../../Controller/PantallaEditarPlatillo.js"></script>
+</body>
+
+</html>

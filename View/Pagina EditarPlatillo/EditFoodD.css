@@ -1,0 +1,109 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #202124;
+    background: linear-gradient(to top, whitesmoke, #daa520);
+    margin: 0;
+}
+
+header nav {
+    background-color: #202124;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    overflow: hidden;
+    margin-right: 25px;
+}
+
+header nav ul li {
+    float: right;
+}
+
+header nav ul li a {
+    display: block;
+    padding: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 17.5px;
+}
+
+header nav ul li a:hover {
+    opacity: 0.5;
+}
+
+.barra-nav {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    padding-top: 5px;
+    width: auto;
+    height: 50px;
+}
+
+.contenedor_comidas {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    background: white;
+    padding: 25px;
+    color: black;
+    height: auto;
+    width: 15cm;
+    border-radius: 15px;
+    left: 50%;
+    transform: translate(55%, 12%);
+    box-shadow: #292c2f 1px 1px 5px 5px;
+}
+
+.cuadrado img{
+    width: 200px;
+    height: 200px;
+    background: transparent;
+    border: 1px solid black;
+}
+
+.nombre {
+    margin: 20px;
+    height: 30px;
+    width: 7cm;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+}
+
+.precio {
+    margin: 20px;
+    height: 30px;
+    width: 3cm;
+    margin-bottom: 0cm;
+}
+
+.descripcion {
+    margin: 20px;
+    width: 14cm;
+    height: 3cm;
+    display: flex;
+}
+
+.botones {
+    cursor: pointer;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: capitalize;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(285deg, #202124, goldenrod);
+}
+
+.botones:hover {
+    background: linear-gradient(90deg, #202124, goldenrod);
+}

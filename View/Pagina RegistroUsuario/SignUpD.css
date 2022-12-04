@@ -1,0 +1,288 @@
+body {
+    margin-left: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #292c2f;
+    background: linear-gradient(to right, rgb(237, 235, 223), goldenrod);
+}
+
+header nav {
+    background-color: #202124;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    overflow: hidden;
+    margin-right: 25px;
+}
+
+header nav ul li {
+    float: right;
+}
+
+header nav ul li a {
+    display: block;
+    padding: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 17.5px;
+}
+
+header nav ul li a:hover {
+    opacity: 0.5;
+}
+
+.barra-nav {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    padding-top: 5px;
+    width: auto;
+    height: 50px;
+}
+
+.fondito{
+    right: 7.5%;
+    z-index: 2;
+    position: fixed;
+}
+
+.fondito img{
+    height: auto;
+    width: 300px;
+    padding-left: 90px;
+    padding-top: 175px;
+}
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 25px 30px;
+    border-radius: 10px;
+    margin: 100px 0 50px 15px;
+    float: left;
+    box-shadow: #292c2f 1px 1px 5px 5px;
+}
+
+.container .title{
+    font-size: 35px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 2px gray;
+
+}
+
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+
+}
+
+.user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box  input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px ;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box  input:focus,
+.user-details .input-box  input:valid{
+    border-color: goldenrod;
+}
+
+form .gender-details .gender-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form .gender-details .category{
+    display: flex;
+    width: 80% ;
+    margin: 14px 60px;
+    justify-content: space-between;
+    
+}
+
+form .gender-details .category label{
+    display: flex;
+    align-items: center;
+}
+
+form .gender-details .category .dot{
+    height: 18px;
+    width: 18px;
+    background: silver;
+    border-radius: 50%;
+    margin-right: 14px;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .thre{
+    border-color: gray;
+    background: goldenrod;
+
+}
+
+.accept{
+    margin-top: 30px;
+    margin-bottom: 35px;
+    margin-left: 30%;
+}
+
+.accept .check{
+    background-color: #202124;
+    border-color: #292c2f;
+}
+
+.accept label{
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #202124;
+    
+}
+
+form input[type="radio"]{
+    display: none;
+}
+
+.button a{
+     z-index: 0;
+    float: right;
+    /* /* top: 85%; */
+    left: 23.5%;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    background-color: goldenrod;
+    border-radius: 5px;
+    box-shadow: #292c2f 1px 1px 5px 1px;
+    text-decoration: none;
+    color:#202124;
+}
+
+form .button{
+    height: 45px;
+    margin: 45px 0;
+}
+
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    background: linear-gradient(285deg, #202124, grey);
+
+
+}
+
+form .button input:hover{
+    background: linear-gradient(90deg, #202124, grey);
+
+}
+
+@media (max-widht: 584px){
+    .container{
+        max-width: 100%;
+
+    }
+    form .user-details .input-box{
+        margin-bottom: 15px;
+        width: 100%;
+    
+    }
+    form .gender-details .category{
+        width: 100% ;
+    }
+    .container form .user-details{
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar{
+        width: 0px;
+    }
+}
+
+
+.footer-sencillo {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+  }
+  
+  .footer-sencillo .footer-left p {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+  }
+  /* Footer links */
+  
+  .footer-sencillo p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+  }
+  
+  .footer-sencillo p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .footer-sencillo .footer-links a:before {
+    content: "·";
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-sencillo .footer-links .link-1:before {
+    content: none;
+  }
+  
+  .footer-sencillo p.footer-links a:hover{text-decoration:underline;}

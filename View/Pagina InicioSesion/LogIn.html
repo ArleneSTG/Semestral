@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesion - Weird Food</title>
+    <link rel="icon" href="img/loguito.png">
+    
+    <link rel="stylesheet" href="LogInD.css">
+    <link rel="stylesheet" href="../Pagina Principal-sesión iniciada/HomeD2.css">
+</head>
+
+<body onload="ObtenerUsuarios()">
+    <header>
+        <!--Una barra con un menu y su logo-->
+        <nav class="barra-nav" id="navbar">
+            
+        </nav>
+    </header>
+
+    <div class="formulario">
+        <h1>Inicio de Sesion</h1>
+        <div id="validar">
+            <p></p>
+        </div>
+        <form method="get">
+            <div class="username">
+                <input type="text" required name="usuario">
+                <label for="">Correo Electrónico</label>
+            </div>
+
+            <div class="username">
+                <input type="password" required name="contrasena">
+                <label for="">Contraseña</label>
+            </div>
+
+            <div class="recordar">¿Olvidó su contraseña?</div>
+            <input type="submit" onclick="location.reload()" value="Iniciar Sesion" href="">
+            <div class="registrarse">
+                ¿No tienes una cuenta? <a
+                    href="../Pagina RegistroUsuario/SignUp.html">registrarse</a>
+            </div>
+            <script src="../../Controller/PantallaLogin.js"></script>
+        </form>
+    </div>
+</body>
+
+</html>

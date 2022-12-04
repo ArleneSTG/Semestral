@@ -1,0 +1,122 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #202124;
+    background-color: rgb(237, 235, 223);
+    margin: 0;
+}
+
+header nav {
+    background-color: #202124;
+    margin-bottom: 10px;
+}
+
+header nav li {
+    float: left;
+}
+
+header nav li a {
+    display: block;
+    padding: 0px 20px 20px 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 17.5px;
+}
+
+header nav li a:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+.barra-nav {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    width: auto;
+    height: 15px;
+}
+
+.container {
+    margin: 100px 50px 25px 50px;
+}
+
+.dagd {
+    display: flex;
+}
+
+.colum1 {
+    display: block;
+    margin: 20px;
+}
+
+.colum1 img {
+    height: auto;
+    width: 550px;
+}
+
+.colum2 {
+    border-left: gray solid;
+}
+
+.colum2 .nombre {
+    text-align: center;
+    font-size: large;
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+
+.colum2 .descripcion {
+    text-align: justify;
+    font-style: oblique;
+    padding: 10px;
+}
+
+.colum2 .precio h4 {
+    text-align: center;
+    font-size: x-large;
+}
+
+.colum3 {
+    margin: 0px 50px 0px 50px;
+    display: flex;
+}
+
+form {
+    width: 250px;
+    margin: 0;
+    height: 50px;
+}
+
+form p {
+    text-align: left;
+}
+
+form label {
+    font-size: 25px;
+    display: inline-flex;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    color: grey;
+}
+
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover~label {
+    color: goldenrod;
+}
+
+input[type="radio"]:checked~label {
+    color: goldenrod;
+}

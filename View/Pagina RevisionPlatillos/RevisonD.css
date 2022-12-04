@@ -1,0 +1,108 @@
+/*Diseño para el body completo*/
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #202124;
+    background: linear-gradient(to top, whitesmoke, #daa520);
+    margin: 0;
+    height: 2000px;
+}
+
+header nav {
+    background-color: #202124;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    overflow: hidden;
+    margin-right: 25px;
+}
+
+header nav ul li {
+    float: right;
+}
+
+header nav ul li a {
+    display: block;
+    padding: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 17.5px;
+}
+
+header nav ul li a:hover {
+    opacity: 0.5;
+}
+
+.barra-nav {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    padding-top: 5px;
+    width: auto;
+    height: 50px;
+}
+
+section{
+    margin: 120px 55px 65px 55px;
+
+}
+
+.contenedor_comidas {
+    margin-top: 20px;
+    display: flex;
+    background: white;
+    padding: 25px;
+    color: #202124;
+    height: auto;
+    width: auto;
+    text-align: justify;
+    border-radius: 15px;
+}
+
+.img_comidas {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+h2{
+    border-bottom: 2px solid goldenrod;
+    margin: auto;
+}
+
+.texto {
+    padding-left: 30px;
+}
+
+.div_botones {
+    padding-top: 30px;
+}
+
+.precio{
+    font-size: 25px;
+}
+
+.botones {
+    background-color: goldenrod; 
+    cursor: pointer;
+    color: #202124;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 70px;
+    align-items: center;
+    text-transform: capitalize;
+    border-radius: 30px;
+}
+
+.botones:hover{
+    background-color: gold;
+    color: #202124;
+}

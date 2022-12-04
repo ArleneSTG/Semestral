@@ -1,0 +1,175 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #202124;
+    background-color: #edebdf;
+    margin: 0;
+}
+
+/* header nav {
+    background-color: #202124;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    overflow: hidden;
+    margin-right: 25px;
+}
+
+header nav ul li {
+    float: right;
+}
+
+header nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 17.5px;
+}
+
+header nav ul li a:hover {
+    opacity: 0.5;
+}
+
+.barra-nav {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+}
+
+.barra-nav .imagen{
+    margin-bottom: 0px;
+    display:flex;
+}
+
+.barra-nav .imagen p{
+display:flex;
+margin:0% ;
+padding: 0%;
+float: right;
+margin-top: 10px;
+margin-left: 5px;
+}
+
+.barra-nav .info{
+padding-top: 10px;
+} */
+
+.logo {
+    padding-top: 5px;
+    width: auto;
+    height: 50px;
+}
+
+/* .banner .img1 {
+    width: 100%;
+    height: 550px;
+    padding-top: 92px;
+    z-index: -1;
+    margin-bottom: 50px;
+} */
+
+.banner {
+    margin: 125px 125px 100px 125px;
+    text-align: center;
+}
+
+.banner .img2 {
+    width: auto;
+    height: 300px;
+}
+
+.banner .btn {
+    text-decoration-line: overline;
+    text-decoration-color: #C59E2A;
+    letter-spacing: 5px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    color: #C59E2A;
+    text-shadow: 2px 2px 5px whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    /* background-color: goldenrod; */
+    border-radius: 5px;
+    /* box-shadow: #292c2f 1px 1px 5px 1px; */
+}
+
+.banner div a {
+    text-decoration: none;
+    color: #292c2f;
+    font-style: Lucida Sans Unicode;
+}
+
+.bm:hover .btn {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+    box-shadow: goldenrod 1px 1px 5px 1px;
+    color: goldenrod;
+    background-color: #292c2f;
+    transition: all 0.3s;
+    letter-spacing: 1px;
+}
+
+div .bm a {
+    font-weight: bolder;
+}
+
+.btn {
+    overflow: hidden;
+}
+
+.intro {
+    margin: 125px 150px 125px 150px;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: xx-large;
+}
+
+section .tabla {
+    background-color: rgb(227, 224, 206);
+    height: auto;
+    width: 100%;
+}
+
+section .tabla tr td a img {
+    margin: 0 0 30px 160px;
+    height: 75px;
+    width: 75px;
+}
+
+td {
+    background-color: #292c2f;
+}
+
+a {
+    text-decoration: none;
+}
+
+section .tabla tr td a h2 {
+    font-size: x-large;
+    font-style: 'Trebuchet MS';
+    text-decoration: none;
+    color: rgb(237, 235, 223);
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+section .tabla tr td a h2:hover {
+    text-shadow: #202124 10px 10px 10px 60px;
+    -webkit-transform: scale(1.0);
+    transform: scale(1.2);
+    transition: all 0.3s;
+    letter-spacing: 0;
+}
+
+section .tabla tr td:hover {
+    background-color: #202124;
+    transition: all 0.3s;
+}

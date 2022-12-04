@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario - Weird Food</title>
+    <link rel="icon" href="img/loguito.png">
+    <link rel="stylesheet" href="SignUpD.css">
+</head>
+
+<body onload="ValidarLogin()">
+
+    <header>
+        <!--Una barra con un menu y su logo-->
+        <nav class="barra-nav" id="navbar">
+            
+        </nav>
+    </header>
+
+    <div class="fondito">
+        <img src="img/fotob.png" alt="">
+    </div>
+    <section>
+        <div class="container">
+            <div class="title">Formulario de Registro</div>
+            <form action="" name="formulario">
+                <p id="mensaje"></p>
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Nombre de Usuario</span>
+                        <input type="text" id="nombreUsuario" placeholder="Ingrese su nombre de usuario" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Correo Electrónico</span>
+                        <input type="email" id="correo" placeholder="Ingrese su correo electrónico" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Número Telefónico</span>
+                        <input type="text" id="telefono" placeholder="Ingrese su número telefónico" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Contraseña</span>
+                        <input type="password" id="contrasena" placeholder="Ingrese su contraseña" required>
+                    </div>
+                </div>
+                <div class="gender-details">
+                    <input type="radio" value="M" name="gender" id="dot-1">
+                    <input type="radio" value="F" name="gender" id="dot-2">
+                    <input type="radio" value="N" name="gender" id="dot-3">
+                    <span class="gender-title">Género</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Hombre</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Mujer</span>
+                        </label>
+                        <label for="dot-3">
+                            <span class="dot thre"></span>
+                            <span class="gender">Prefiero no decir</span>
+                        </label>
+                    </div>
+                    <div class="accept terms">
+                        <input class="check" type="checkbox">
+                        <label for="">Acepto los terminos y condiciones</label>
+                    </div>
+                </div>
+                <div class="button">
+                    <a href="#" onclick="GuardarUsuario()">Registrar</a>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="../../Controller/PantallaRegistro.js"></script>
+    <script src="../../Controller/PantallaNav.js"></script>
+</body>
+
+</html>

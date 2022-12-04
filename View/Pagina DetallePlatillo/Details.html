@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Platillo - Weird Food</title>
+    <link rel="icon" href="img/loguito.png">
+    <link rel="stylesheet" href="DetailsD.css">
+</head>
+
+<body onload="ObtenerInfoPlatillo()">
+    <header>
+        <!--Una barra con un menu y su logo-->
+        <nav class="barra-nav">
+            <li><a href="../Pagina Menu/Menu.html"><img class="logo" src="img/flechaa.png"
+                        alt="">Atras</a></li>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="dagd" id="informacionComida">
+            
+        </div>
+
+        <div class="colum3">
+            <h2>Clasificacion:</h2>
+            <form>
+                <p class="clasificacion">
+                    <input id="radio1" type="radio" name="estrellas" value="5">
+                    <label for="radio1">★</label>
+                    <input id="radio2" type="radio" name="estrellas" value="4">
+                    <label for="radio2">★</label>
+                    <input id="radio3" type="radio" name="estrellas" value="3">
+                    <label for="radio3">★</label>
+                    <input id="radio4" type="radio" name="estrellas" value="2">
+                    <label for="radio4">★</label>
+                    <input id="radio5" type="radio" name="estrellas" value="1">
+                    <label for="radio5">★</label>
+                </p>
+            </form>
+        </div>
+        <script src="../../Controller/PantallaPlatillo.js"></script>
+        <script src="../../Controller/PantallaNav.js"></script>
+    </section>
+    
+</body>
+
+</html>

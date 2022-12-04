@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuario - Weird Food</title>
+    <link rel="icon" href="img/loguito.png">
+    <link rel="stylesheet" href="ProfileSettingsD.css">
+    <link rel="stylesheet" href="../Pagina Principal-sesión iniciada/HomeD2.css">
+</head>
+
+<body onload="ObtenerUsuario()">
+    <header>
+        <!--Una barra con un menu y su logo-->
+        <nav class="barra-nav" id="navbar">
+            
+        </nav>
+    </header>
+
+    <section class="padre">
+        <div class="container">
+            <div class="title">Editar Perfil</div>
+            <div class="imagen"> <img src="img/usuarioP.png" alt=""></div>
+             <p id="mensaje"></p>
+            <form action="#">
+                <div id="Perfil">
+                    
+                </div>
+                
+                <div class="button">
+                    <a href="#" onclick="ActualizarPerfil()">Actualizar Datos</a>
+                </div>
+                <div class="button">
+                    <a type="submit" href="../Pagina Principal/Home.html" onclick="CerrarSesion()" value="">Cerrar Sesion</a>
+                </div>
+            </form>
+
+        </div>
+        <script src="../../Controller/PantallaEditarPerfil.js"></script>
+    </section>
+
+</body>
+
+</html>

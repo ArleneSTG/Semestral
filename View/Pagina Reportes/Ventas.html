@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de reportes - Weird Food</title>
+    <link rel="icon" href="img/loguito.png">
+    <link rel="stylesheet" href="Ventas.css">
+    <link rel="stylesheet" href="../Pagina Principal-sesión iniciada/HomeD2.css">
+</head>
+
+<body onload="ValidarLogin()">
+    <header>
+        <!--Una barra con un menu y su logo-->
+        <nav class="barra-nav" id="navbar">
+            
+        </nav>
+    </header>
+
+    <div class="menu">
+        <div class="op">
+            <tr class="tr">
+                <th class="t2"><a class="opciones" href="Platillos.html">PLATILLOS</a></th>
+            </tr>
+        </div>
+        
+        <tr class="tr">
+            <th class="t2"><a class="opciones" href="Inventario.html">INVENTARIOS</a></th>
+        </tr>
+        <tr class="tr">
+            <th class="t2"><a class="opciones1" href="Ventas.html">VENTAS</a></th>
+        </tr>
+        <tr class="tr">
+            <th class="t2"><a class="opciones" href="Consultas.html">CONSULTAS</a></th>
+        </tr>
+
+    </div>
+
+    <!-- <section>
+        <div class="container">
+            Este div es para la sección de las opciones de los diferentes reportes
+            <table class="table1">
+                <tr>
+                    <th class="t1"><a href="">PRODUCTOS</a></th>
+                </tr>
+                <tr>
+                    <th class="t1"><a href="">INEVNTARIOS</a></th>
+                </tr>
+                <tr>
+                    <th class="t1"><a href="">VENTAS</a></th>
+                </tr>
+                <tr>
+                    <th class="t1"><a href="">PEDIDOS</a></th>
+                </tr>
+            </table>
+
+        </div>
+    </section> -->
+
+    <section>
+        <div class="container">
+            <!--Encabezado de la tabla-->
+            <table class="table2">
+                <thead class="encabezado">
+                    <tr>
+                        <th>Imagen</th>
+                        <th class="np">Nombre del Platillo</th>
+                        <th>Descripción</th>
+                        <th>Cantidad vendida</th>
+                    </tr>
+                </thead>
+
+                <!--A partir de este tr en eadelante, es el contenido dentro de la tabla-->
+                <tbody class="cuerpo">
+                    <tr>
+                        <td class="imagen"><img class="img_table" src="https://i.ibb.co/wNFcF67/huevos-centenarios.jpg" alt=""></td>
+                        <td class="nombre">Huevos Cenetenarios</td>
+                        <td class="descripcion">Es un plato chino muy delicioso el cual se elabora mediante la
+                            preservación del huevo de pato, gallina o codorniz.</td>
+                        <td class="cantidad">103</td>
+                    </tr>
+                    <tr>
+                        <td class="imagen"><img class="img_table" src="https://i.ibb.co/QDYv879/callos.jpg" alt=""></td>
+                        <td class="nombre">Callos</td>
+                        <td class="descripcion">Los callos son un guiso típico de Madrid que se elabora 
+                            con las tripas de vaca tras un elevado tiempo de cocción. La misma se prepara 
+                            en un caldo de carne con pimentón, salsa de tomate, especias y ajos, de modo que 
+                            la gelatina de la carne se desprenda y se mezcle con el resto de ingredientes.</td>
+                        <td class="cantidad">75</td>
+                    </tr>
+                    <tr>
+                        <td class="imagen"><img class="img_table" src="https://i.ibb.co/qxJvYnm/fugu.jpg" alt=""></td>
+                        <td class="nombre">Fugu</td>
+                        <td class="descripcion"> Es considerado todo un manjar en Japón, pero su 
+                            consumo está prohibido en la Unión Europea ya que es un pez globo con 
+                            suficiente veneno en su cuerpo como para ser letal.</td>
+                        <td class="cantidad">128</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+        <script src="../../Controller/PantallaRevision.js"></script>
+    </section>
+
+</body>
+
+</html>

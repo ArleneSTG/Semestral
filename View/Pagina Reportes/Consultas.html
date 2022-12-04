@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de reportes - Weird Food</title>
+    <link rel="icon" href="img/loguito.png">
+    <link rel="stylesheet" href="inventario.css">
+    <link rel="stylesheet" href="../Pagina Principal-sesión iniciada/HomeD2.css">
+</head>
+
+<body onload="ValidarLogin()">
+    <header>
+        <!--Una barra con un menu y su logo-->
+        <nav class="barra-nav" id="navbar">
+            
+        </nav>
+    </header>
+
+    <div class="menu">
+        <div class="op">
+            <tr class="tr">
+                <th class="t2"><a class="opciones" href="Platillos.html">PLATILLOS</a></th>
+            </tr>
+        </div>
+        
+        <tr class="tr">
+            <th class="t2"><a class="opciones" href="Inventario.html">INVENTARIOS</a></th>
+        </tr>
+        <tr class="tr">
+            <th class="t2"><a class="opciones" href="Ventas.html">VENTAS</a></th>
+        </tr>
+        <tr class="tr">
+            <th class="t2"><a class="opciones1" href="Consultas.html">CONSULTAS</a></th>
+        </tr>
+
+    </div>
+
+    <!-- <section>
+        <div class="container">
+            Este div es para la sección de las opciones de los diferentes reportes
+            <table class="table1">
+                <tr>
+                    <th class="t1"><a href="">PRODUCTOS</a></th>
+                </tr>
+                <tr>
+                    <th class="t1"><a href="">INEVNTARIOS</a></th>
+                </tr>
+                <tr>
+                    <th class="t1"><a href="">VENTAS</a></th>
+                </tr>
+                <tr>
+                    <th class="t1"><a href="">PEDIDOS</a></th>
+                </tr>
+            </table>
+
+        </div>
+    </section> -->
+
+    <section>
+        <div class="container">
+            <!--Encabezado de la tabla-->
+            <p id="mensaje"></p>
+            <table class="table2">
+                <thead class="encabezado">
+                    <tr>
+                        <th>Nombre del usuario</th>
+                        <th>Email</th>
+                        <th>Mensaje</th>
+                        <th>Fue respondida</th>
+                    </tr>
+                </thead>
+
+                <!--A partir de este tr en eadelante, es el contenido dentro de la tabla-->
+                <tbody class="cuerpo" id="consultas">
+                    
+                </tbody>
+
+            </table>
+        </div>
+        <script src="../../Controller/PantallaConsultas.js"></script>
+    </section>
+
+</body>
+
+</html>

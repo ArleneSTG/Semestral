@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Weird Food</title>
+    <link rel="icon" href="img/loguito.png">
+    <link rel="stylesheet" href="../Pagina Contacto/ContactD.css">
+    <!-- <link rel="stylesheet" href="../Pagina Principal-sesión iniciada/HomeD2.css"> -->
+    
+</head>
+
+<body onload="ObtenerMensaje()">
+    <header>
+        <!--Una barra con un menu y su logo-->
+        <nav class="barra-nav" id="navbar">
+            
+        </nav>
+    </header>
+
+    <!--Un seccion para agregar la imagen con el titulo incluido-->
+    <section class="banner">
+        <img src="img/bannerC.png" alt="">
+    </section>
+
+    <div class="intro">
+        <h2>Contactos</h2>
+        <h4>
+            A continuación, encontrará las diferentes sucursales con sus numeros de telefonos y direccion de Weird Food.
+            Si desea ponerse en contacto con nosotros, mas abajo utilice el siguiente formulario de contacto y nos
+            pondremos en contacto con usted en breve. ¡Gracias!
+        </h4>
+    </div>
+
+    <!--Una seccion para las ubicaciones-->
+    <section class="direccion">
+        <h1>Sucursales</h1>
+        <!--Un div que coniene la ubicacion, el telefono y direccion-->
+        <div class="info">
+            <h3>San Francisco</h3>
+            <a
+                href="https://www.google.es/maps/place/San+Francisco,+Panam%C3%A1/@8.9890905,-79.5243271,14z/data=!3m1!4b1!4m5!3m4!1s0x8faca90474ff80a7:0xb8f04603d5b6abd5!8m2!3d8.9924711!4d-79.5069436?hl=es">
+                <img class="img2" src="img/San Francisco.jpg" alt=""></a>
+            <h2><img class="icono" src="img/telefo.webp" alt=""> +507 234-7645</h2>
+            <p><img class="icono" src="img/ubi1.png" alt=""> Avenida Pacifica, establecimiento 243, San Francisco -
+                Panamá</p>
+        </div>
+        <!--Un div que coniene la ubicacion, el telefono y direccion-->
+        <div class="info">
+            <h3>Costa del Este</h3>
+            <a
+                href="https://www.google.es/maps/place/Costa+del+Este,+Panam%C3%A1/@9.0161393,-79.4793892,15z/data=!3m1!4b1!4m5!3m4!1s0x8facaa1921c350c5:0x269311412ce7166b!8m2!3d9.0131299!4d-79.467576?hl=es">
+                <img class="img2" src="img/Costa del Este.jpg" alt=""></a>
+            <h2><img class="icono" src="img/telefo.webp" alt=""> +507 256-2419</h2>
+            <p><img class="icono" src="img/ubi1.png" alt=""> Plaza Floral, local 67, Costa del Este - Panamá</p>
+        </div>
+        <!--Un div que coniene la ubicacion, el telefono y direccion-->
+        <div class="info">
+            <h3>David</h3>
+            <a
+                href="https://www.google.es/maps/place/David/@8.4051802,-82.4971246,12z/data=!3m1!4b1!4m5!3m4!1s0x8fa59d9ff655a4c9:0xed61fb3a96949112!8m2!3d8.4007278!4d-82.4427769?hl=es">
+                <img class="img2" src="img/David.jpg" alt=""></a>
+            <h2><img class="icono" src="img/telefo.webp" alt=""> +507 349-7005</h2>
+            <p><img class="icono" src="img/ubi1.png" alt=""> Al frente del parque Union, local 34, David - Chiriqui
+            </p>
+            <br><br>
+        </div>
+    </section>
+
+    <h1 class="titulo2">Formulario de Consultas</h1>
+    <br>
+    <!--Seccion para hacer un formulario-->
+    <section class="consul">
+        <p>Para mas informacion mandanos un mensajes</p>
+        <p id="mensaje"></p>
+        <form action="">
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Ingrese su Nombre">
+            <br><br>
+            <label for="Email">Email:</label>
+            <input type="text" id="correo" placeholder="Ingrese su Email">
+            <br><br>
+            <label for="Mensaje">Mensaje:</label>
+            <br><br>
+            <input type="text" id="mensajeusuario" placeholder="Ingrese su mensaje">
+            <br>
+            <a href="#" onclick="GuardarMensaje()">Enviar mensaje</a>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <a href="../Pagina Principal/Home.html"><img class="logof" src="img/logo.png" alt=""></a>
+            <br>
+            <p class="footer-links">
+                <a class="link-1" href="../Pagina Principal/Home.html">Inicio</a>
+                <a href="../Pagina Menu/Menu.html">Menu</a>
+                <a href="../Pagina SobreNosotros/AboutUs.html">Conocenos</a>
+                <a href="../Pagina Contacto/Contact.html">Contactanos</a>
+            <div class="redesf">
+                <p class="footer-links">Siguenos en</p>
+                <a href="https://www.instagram.com/"><img src="img/ig.png" alt=""></a>
+                <a href="https://www.pinterest.es/corderomh/panam%C3%A1/"><img src="img/pt.jpg" alt=""></a>
+                <a href="https://www.youtube.com/"><img src="img/yt.png" alt=""></a>
+            </div>
+            </p>
+            <br>
+            <br>
+            <p>weird Food &copy; 2022</p>
+        </div>
+        <script src="../../Controller/PantallaContacto.js"></script>
+    </footer>
+</body>
+
+</html>
